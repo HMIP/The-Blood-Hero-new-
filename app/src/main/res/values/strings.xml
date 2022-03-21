@@ -1,0 +1,194 @@
+<resources>
+    <string name="app_name">My Blood Hero</string>
+    <string name="edittext_loc">Blood Donation Centre Malaysia</string>
+    <string name="button_loc">Open Location</string>
+    <string name="cb1">Age is between 18 and 60 years old</string>
+    <string name="cb2">Weight is above 45kg</string>
+    <string name="cb3">Have enough sleep at least 5 hours</string>
+    <string name="cb4">Drink enough water before blood donation</string>
+    <string name="cb5">Have a good physical and mental health with no chronic diseases</string>
+    <string name="cb6">No alcoholic drinks in 24 hours</string>
+    <string name="cb7">No major surgery in 6 months</string>
+    <string name="cb8">Eat a healthy diet before blood donation</string>
+    <string name="requirement_label">You need to meet this requirements before blood donation :</string>
+    <string name="about_us_info">My Blood Hero is an app that support searching of blood donation centre and booking appointment for blood donation. It shows the blood donation centres in Malaysia and was developed to encourage more people to donate their blood to anyone in need.</string>
+    <string name="selection_info">Please select your state and hospital from these two list.</string>
+
+    <string-array name="hospital_default">
+        <item>Select Hospital</item>
+    </string-array>
+
+    <string-array name="hospital_jb">
+        <item>Select Hospital</item>
+        <item>Hospital Sultanah Aminah</item>
+        <item>Hospital Segamat</item>
+        <item>Hospital Sultan Ismail</item>
+        <item>Hospital Pakar Sultanah Fatimah</item>
+    </string-array>
+
+    <string-array name="hospital_kedah">
+        <item>Select Hospital</item>
+        <item>Hospital Sultanah Bahiyah"</item>
+        <item>Hospital Sultan Abdul Halim Sg Petani</item>
+    </string-array>
+
+    <string-array name="hospital_kelantan">
+        <item>Select Hospital</item>
+        <item>Hospital Raja Perempuan Zainab II</item>
+        <item>Hospital Pasir Mas</item>
+        <item>Hospital Kuala Krai</item>
+        <item>Hospital Tanah Merah</item>
+    </string-array>
+
+    <string-array name="hospital_malacca">
+        <item>Select Hospital</item>
+        <item>Hospital Melaka</item>
+    </string-array>
+
+    <string-array name="hospital_n9">
+        <item>Select Hospital</item>
+        <item>Hospital Tuanku Jaafar</item>
+        <item>Hospital Tuanku Ampuan Najihah</item>
+    </string-array>
+
+    <string-array name="hospital_pahang">
+        <item>Select Hospital</item>
+        <item>Hospital Tengku Ampuan Afzan</item>
+        <item>Hospital Sultan Hj Ahmad Shah</item>
+        <item>Hospital Bentong</item>
+    </string-array>
+
+    <string-array name="hospital_penang">
+        <item>Select Hospital</item>
+        <item>Hospital Pulau Pinang</item>
+        <item>Hospital Seberang Jaya</item>
+    </string-array>
+
+    <string-array name="hospital_perak">
+        <item>Select Hospital</item>
+        <item>Hospital Raja Permaisuri Bainun</item>
+        <item>Hospital Teluk Intan</item>
+    </string-array>
+
+    <string-array name="hospital_perlis">
+        <item>Select Hospital</item>
+        <item>Hospital Tuanku Fauziah</item>
+    </string-array>
+
+    <string-array name="hospital_sabah">
+        <item>Select Hospital</item>
+        <item>Hospital Queen Elizabeth</item>
+    </string-array>
+
+    <string-array name="hospital_sarawak">
+        <item>Select Hospital</item>
+        <item>Hospital Umum Sarawak</item>
+    </string-array>
+
+    <string-array name="hospital_selangor">
+        <item>Select Hospital</item>
+        <item>Hospital Tengku Ampuan Rahimah</item>
+        <item>Pusat Darah Malaysia</item>
+    </string-array>
+
+    <string-array name="hospital_terengganu">
+        <item>Select Hospital</item>
+        <item>Hospital Sultanah Nur Zahirah</item>
+    </string-array>
+    <string-array name="state">
+        <item>Select Your State</item>
+        <item>Johor</item>
+        <item>Kedah</item>
+        <item>Kelantan</item>
+        <item>Malacca</item>
+        <item>Negeri Sembilan</item>
+        <item>Pahang</item>
+        <item>Penang</item>
+        <item>Perak</item>
+        <item>Perlis</item>
+        <item>Sabah</item>
+        <item>Sarawak</item>
+        <item>Selangor</item>
+        <item>Terengganu</item>
+    </string-array>
+
+    <string-array name="gender">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string-array name="blood">
+        <item>O+</item>
+        <item>O-</item>
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+    </string-array>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="personal">Personal Information Form</string>
+    <string name="appointment_date_and_time">Appointment Date and Time</string>
+    <string name="warning">Please select the time that you are able to attend. Thank you for your corporation.</string>
+    <string name="text_listhead">List</string>
+    <string name="confirm_title">Confirm</string>
+    <string name="appointment_name">Name as in IC :</string>
+    <string name="appointment_icno">IC No. :</string>
+    <string name="appointment__gender">Gender :</string>
+    <string name="appointment_DOB">Date of Birth :</string>
+    <string name="et_icno">XXXXXX XX XXXX</string>
+    <string name="et_blood">Blood Type :</string>
+    <string name="et_name">Name</string>
+    <string name="btn_next">Next</string>
+    <string name="et_DOB">Date of Birth</string>
+    <string name="d_icon_calendar">icon_calendar</string>
+    <string name="appointment_ethnicity">Ethnicity :</string>
+    <string name="appointment_mstatus">Marital Status :</string>
+    <string name="appointment_occupation">Occupation :</string>
+    <string name="appointment_hpno">H/P No. :</string>
+    <string name="appointment_email">E-mail :</string>
+    <string name="et_occupation">eg. Doctor</string>
+    <string name="et_phoneno">01XXXXXXX</string>
+    <string name="appointment_date">Appointment Date :</string>
+    <string name="appointment_time">Appointment Time :</string>
+    <string name="et_email">Enter Email Address</string>
+    <string name="et_date">Enter date</string>
+
+    <string-array name="race">
+        <item>Malay</item>
+        <item>Chinese</item>
+        <item>Indian</item>
+        <item>Iban</item>
+        <item>Kadazan</item>
+        <item>Melanau</item>
+        <item>Murut</item>
+        <item>Bidayuh</item>
+        <item>Bajau</item>
+    </string-array>
+
+    <string-array name="mstatus">
+        <item>Single</item>
+        <item>Married</item>
+        <item>Widowed/Divorced</item>
+    </string-array>
+
+    <string-array name="hour">
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+    </string-array>
+
+    <string-array name="min">
+        <item>00</item>
+        <item>15</item>
+        <item>30</item>
+        <item>45</item>
+    </string-array>
+</resources>

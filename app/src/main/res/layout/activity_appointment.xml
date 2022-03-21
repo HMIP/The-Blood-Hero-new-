@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:scrollbarSize="6dp"
+    tools:context=".Appointment">
+
+    <TextView
+        android:id="@+id/appointment_info"
+        android:layout_width="410dp"
+        android:layout_height="40dp"
+        android:background="#FF6637"
+        android:gravity="center"
+        android:text="Appointment Date and Time"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/personal_info"
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:background="#FF6637"
+        android:gravity="center"
+        android:text="@string/personal"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/appointment_info" />
+
+    <TextView
+        android:id="@+id/Adate_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:text="Appointment Date :"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Aemail_label" />
+
+    <TextView
+        android:id="@+id/Aname_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="24dp"
+        android:text="Name as in IC : "
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/personal_info" />
+
+    <TextView
+        android:id="@+id/Atime_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:text="Appointment Time :"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Adate_label" />
+
+    <TextView
+        android:id="@+id/Agender_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:text="Gender : "
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Aic_label" />
+
+    <TextView
+        android:id="@+id/ADOB_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:text="Date Of Birth : "
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Agender_label" />
+
+    <TextView
+        android:id="@+id/Ablood_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:text="Blood Type : "
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ADOB_label" />
+
+    <TextView
+        android:id="@+id/Aethnicity_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="18dp"
+        android:text="Ethnicity : "
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Ablood_label" />
+
+    <TextView
+        android:id="@+id/Am_status_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="18dp"
+        android:text="Marital Status : "
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Aethnicity_label" />
+
+    <TextView
+        android:id="@+id/Aoccupation_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:text="Occupation : "
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Am_status_label" />
+
+    <TextView
+        android:id="@+id/Aphoneno_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:text="Phone No :"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Aoccupation_label" />
+
+    <TextView
+        android:id="@+id/Aemail_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="18dp"
+        android:text="Email :"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Aphoneno_label" />
+
+    <TextView
+        android:id="@+id/Aic_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:text="IC No :"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Aname_label" />
+
+    <EditText
+        android:id="@+id/Aet_name"
+        android:layout_width="180dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="45dp"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/Aname_label"
+        app:layout_constraintTop_toBottomOf="@+id/personal_info" />
+
+    <EditText
+        android:id="@+id/Aet_icno"
+        android:layout_width="180dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="106dp"
+        android:layout_marginTop="-6dp"
+        android:layout_marginEnd="45dp"
+        android:ems="10"
+        android:hint="XXXXXX XX XXXX"
+        android:inputType="number"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/Aic_label"
+        app:layout_constraintTop_toBottomOf="@+id/Aet_name" />
+
+    <Spinner
+        android:id="@+id/spinner_gender"
+        android:layout_width="192dp"
+        android:layout_height="35dp"
+        android:layout_marginEnd="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/Agender_label"
+        app:layout_constraintTop_toBottomOf="@+id/Aet_icno" />
+
+    <EditText
+        android:id="@+id/Aet_DOB"
+        android:layout_width="180dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="-6dp"
+        android:layout_marginEnd="45dp"
+        android:ems="10"
+        android:hint="Date of Birth"
+        android:inputType="date"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/ADOB_label"
+        app:layout_constraintTop_toBottomOf="@+id/spinner_gender" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="-8dp"
+        android:layout_marginTop="135dp"
+        android:onClick="choice_bd"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/Aet_DOB"
+        app:layout_constraintTop_toBottomOf="@+id/personal_info"
+        app:srcCompat="@drawable/ic_bd" />
+
+    <Spinner
+        android:id="@+id/spinner_blood"
+        android:layout_width="192dp"
+        android:layout_height="35dp"
+        android:layout_marginEnd="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/Ablood_label"
+        app:layout_constraintTop_toBottomOf="@+id/Aet_DOB" />
+
+    <Spinner
+        android:id="@+id/spinner_mstatus"
+        android:layout_width="192dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/Am_status_label"
+        app:layout_constraintTop_toBottomOf="@+id/spinner_ethnicity" />
+
+    <EditText
+        android:id="@+id/Aet_occupation"
+        android:layout_width="180dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="-6dp"
+        android:layout_marginEnd="45dp"
+        android:ems="10"
+        android:hint="eg. Doctor"
+        android:inputType="textPersonName"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/Aoccupation_label"
+        app:layout_constraintTop_toBottomOf="@+id/spinner_mstatus" />
+
+    <EditText
+        android:id="@+id/Aet_phoneno"
+        android:layout_width="180dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="-6dp"
+        android:layout_marginEnd="45dp"
+        android:ems="10"
+        android:hint="01XXXXXXXX"
+        android:inputType="number"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/Aphoneno_label"
+        app:layout_constraintTop_toBottomOf="@+id/Aet_occupation" />
+
+    <EditText
+        android:id="@+id/Aet_email"
+        android:layout_width="180dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="-6dp"
+        android:layout_marginEnd="45dp"
+        android:ems="10"
+        android:hint="Enter Your Email"
+        android:inputType="textPersonName"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/Aemail_label"
+        app:layout_constraintTop_toBottomOf="@+id/Aet_phoneno" />
+
+    <EditText
+        android:id="@+id/Aet_date"
+        android:layout_width="180dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="-6dp"
+        android:layout_marginEnd="45dp"
+        android:ems="10"
+        android:hint="Date"
+        android:inputType="textPersonName"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/Adate_label"
+        app:layout_constraintTop_toBottomOf="@+id/Aet_email" />
+
+    <EditText
+        android:id="@+id/Aet_time"
+        android:layout_width="180dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="-6dp"
+        android:layout_marginEnd="45dp"
+        android:ems="10"
+        android:hint="10:00 - 18.00"
+        android:inputType="textPersonName"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/Atime_label"
+        app:layout_constraintTop_toBottomOf="@+id/Aet_date" />
+
+    <Spinner
+        android:id="@+id/spinner_ethnicity"
+        android:layout_width="192dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/Aethnicity_label"
+        app:layout_constraintTop_toBottomOf="@+id/spinner_blood" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="-8dp"
+        android:layout_marginTop="402dp"
+        android:onClick="choice_dt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintStart_toEndOf="@+id/Aet_date"
+        app:layout_constraintTop_toBottomOf="@+id/personal_info"
+        app:srcCompat="@drawable/ic_bd" />
+
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="6dp"
+        android:backgroundTint="#FF6637"
+        android:text="Next"
+        android:textColor="#FEFEFE"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".Centre">
+
+    <Button
+        android:id="@+id/button_appointment"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:text="Book Appointment"
+        android:textColor="#FFFFFF"
+        app:backgroundTint="#FF6637"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textview_hospital" />
+
+    <Button
+        android:id="@+id/open_location_button"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:onClick="openLocation"
+        android:text="@string/button_loc"
+        android:textColor="#FFFFFF"
+        app:backgroundTint="#FF6637"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_appointment" />
+
+    <Spinner
+        android:id="@+id/state"
+        android:layout_width="230dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.593"
+        app:layout_constraintStart_toEndOf="@+id/state_label"
+        app:layout_constraintTop_toBottomOf="@+id/selection_info" />
+
+    <TextView
+        android:id="@+id/textview_state"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginTop="28dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:padding="6dp"
+        app:layout_constraintStart_toEndOf="@+id/state"
+        app:layout_constraintTop_toBottomOf="@+id/selection_info" />
+
+    <Spinner
+        android:id="@+id/hospital"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintStart_toEndOf="@+id/hospital_label"
+        app:layout_constraintTop_toBottomOf="@+id/state" />
+
+    <TextView
+        android:id="@+id/hospital_label"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="50dp"
+        android:text="Hospital:"
+        android:textColor="#333333"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/state_label" />
+
+    <TextView
+        android:id="@+id/textview_hospital"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginTop="46dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:padding="6dp"
+        app:layout_constraintStart_toEndOf="@+id/hospital"
+        app:layout_constraintTop_toBottomOf="@+id/state" />
+
+    <TextView
+        android:id="@+id/state_label"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="28dp"
+        android:text="State:"
+        android:textColor="#333333"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/selection_info" />
+
+    <TextView
+        android:id="@+id/selection_info"
+        android:layout_width="352dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="80dp"
+        android:text="@string/selection_info"
+        android:textColor="#333333"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
